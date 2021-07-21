@@ -6,6 +6,7 @@ Below are described the commands to build the application and run on your machin
 
 * [DOCKER](https://docs.docker.com/install/)
 * [NPM](https://www.npmjs.com/)
+* [NODE](https://nodejs.org/en/)
 
 ### Executing
 
