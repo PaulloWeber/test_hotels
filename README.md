@@ -24,7 +24,7 @@ Output:
 
 ```bash
 
-add x packages
+added x packages
 
 ```
 
@@ -39,8 +39,6 @@ npm run build
 Output:
 
 ```bash
-
-add x packages
 
 ```
 
