@@ -8,7 +8,9 @@ Below are described the commands to build the application and run on your machin
 
 ### Executing
 
-To execute the API with selected parameters:
+First rename file .env.example to .env
+
+Install dependencies:
 
 ```bash
 
@@ -29,6 +31,14 @@ Build project:
 ```bash
 
 npm run build
+
+```
+
+Output:
+
+```bash
+
+add x packages
 
 ```
 
