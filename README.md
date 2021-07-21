@@ -24,11 +24,11 @@ add x packages
 
 ```
 
+Build project:
 
 ```bash
 
 npm run build
-docker build . -t tui_test
 
 ```
 
@@ -45,6 +45,8 @@ Output:
 Successfully tagged tui_test:latest
 
 ```
+
+Run project
 
 ```bash
 
@@ -68,15 +70,22 @@ http://localhost:8181/api/hotel/
 
 example: http://localhost:8181/api/hotel/?page=1&pageSize=2&countryCode=BR
 
-optional params:[
-    page: number -> number of page
-    pageSize: number -> quantity per page
-    name: string
-    address: string
-    code: string -> code of hotel (example: RTMADPUL, RTRIODUM) 
-    cityCode: string -> code of city (example: PAR, LIS, RIO, MAD)
+optional params:
+
+    page: number -> number of page,
+
+    pageSize: number -> quantity per page,
+
+    name: string,
+
+    address: string,
+
+    code: string -> code of hotel (example: RTMADPUL, RTRIODUM),
+
+    cityCode: string -> code of city (example: PAR, LIS, RIO, MAD),
+
     countryCode: string -> code of country (example: BR, PT, FR, ES)
-]
+
 
 Get Hotel By Id:
 http://localhost:8181/api/hotel/{code}
