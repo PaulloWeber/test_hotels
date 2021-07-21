@@ -5,6 +5,7 @@ Below are described the commands to build the application and run on your machin
 ### Use
 
 * [DOCKER](https://docs.docker.com/install/)
+* [NPM](https://www.npmjs.com/)
 
 ### Executing
 
@@ -26,7 +27,7 @@ add x packages
 
 ```
 
-Build project:
+Build project, first execute:
 
 ```bash
 
@@ -42,6 +43,8 @@ add x packages
 
 ```
 
+Docker build:
+
 ```bash
 
 docker build . -t tui_test
@@ -56,7 +59,7 @@ Successfully tagged tui_test:latest
 
 ```
 
-Run project
+Run project:
 
 ```bash
 
